@@ -1,10 +1,12 @@
 import "./App.css";
-import Login from "./components/Login";
+import Login from "./components/login/Login";
+import Interface from "./components/interface/Interface";
 function App() {
   return (
-    <div className="page">
+    /*<div className="page">
       <Login />
-    </div>
+    </div>*/
+    <Interface />
   );
 }
 export default App;

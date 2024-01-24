@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "./1630550388753-removebg-preview.png";
+import logo from "../../assets/logodef.png"
 import "./login.css";
 
 const Login = () => {
