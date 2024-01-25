@@ -7,13 +7,13 @@ const Number = ({ limit, text }) => {
     const intervalId = setInterval(() => {
       setNumber(prevNumber => {
         if (prevNumber < limit) {
-          return prevNumber + 1;
+          return prevNumber + 10;
         } else {
           clearInterval(intervalId);
           return prevNumber;
         }
       });
-    }, 0.0001);
+    }, 0.1);
 
     return () => clearInterval(intervalId);
   }, [limit]);

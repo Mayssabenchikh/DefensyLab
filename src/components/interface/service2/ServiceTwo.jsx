@@ -10,7 +10,7 @@ function ServiceTwo() {
       backgroundImage: `url(${img1})`,
     };
     return(
-    <div className="containerone" style={containeroneStyle}>
+    <div className="containerone" style={containeroneStyle} id='securite'>
         <div className="overlaytwo"></div>
         <div className="texttwo">
             <div className='part1'>

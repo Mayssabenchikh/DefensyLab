@@ -21,7 +21,7 @@ function Carousel() {
         
       };
   return (
-    <div className='carousel'>
+    <div className='carousel' id='references'>
         <div>
         <p id="rge">ILS NOUS FONT CONFIANCE</p>
         </div>

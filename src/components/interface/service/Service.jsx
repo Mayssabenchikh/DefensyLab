@@ -16,7 +16,9 @@ function Service() {
         <div className="overlay"></div>
         <div className="text1">
             <div className='image'>
-          <img src={img1} alt="Content" /></div>
+          <img src={img1} alt="Content" />
+          
+          </div>
           <div className='article'>
           <p id='t1'>BIENVENUE À DEFENSY LAB</p>
         <h1 className='pos'>Services de Hacker powered Security </h1>

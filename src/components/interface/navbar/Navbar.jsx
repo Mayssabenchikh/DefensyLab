@@ -1,6 +1,7 @@
 import React from 'react'
 import logo1 from "../../../assets/logo1.png"
 import { IoPersonOutline } from "react-icons/io5";
+import {  Link } from "react-router-dom";
 import "./navbar.css"
 function Navbar() {
   return (
@@ -18,7 +19,7 @@ function Navbar() {
       </div>
       <div className="navbar-login">
         <IoPersonOutline />
-        <span>Login</span>
+        <Link to="/login"><span>Login</span></Link>
       </div>
     </div>
   )
