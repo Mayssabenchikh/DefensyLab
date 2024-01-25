@@ -1,0 +1,121 @@
+.containerone {
+  border-radius: 0;
+  position: relative;
+  width: 100%;
+  height: 150vh; 
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 20px;
+  
+}
+.overlaytwo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color:#0D1E4C;
+  opacity: 0.86;
+  transition: background 0.3s,border-radius 0.2rem, opacity 0.3s;
+
+}
+.texttwo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  text-align: center;
+  width: 100%;
+  display: flex;
+}
+.part1{
+  width: 40%;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  margin-top: 15%;
+  align-items: left;
+  margin-left: 10%;
+  margin-right: 5%;
+}
+.part2{
+  width: 60%;
+  text-align: left;
+  
+}
+.parttt1{
+  display: flex;
+  
+}
+.partt1 img,.partt2 img{
+  width: 60px;
+}
+.partt3 img{
+  width: 120px;
+}
+.partt1,.partt2{
+  width: 35%;
+  border: 1px solid aqua;
+  margin: 1em 1em 1em 1em ;
+  padding: 2em 2em 2em 2em;
+  border-radius: 10px;
+  
+}
+.partt3{
+  width:75%;
+  border: 1px solid aqua;
+  margin: 1em 1em 1em 1em ;
+  padding: 2em 2em 2em 2em;
+  border-radius: 10px;
+}
+#titre{
+  letter-spacing: 0.5em;
+  font-size: 13px;
+  color:#EA3B2E;
+  font-weight: 800;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.gtitre{
+  font-size: 2.5rem;
+  font-weight: 600;
+  line-height: 1.2em;
+  
+}
+.par{
+  font-weight: 400;
+  font-size: 0.7rem;
+}
+.butt {
+  background-color: grey;
+    border: 1px solid aqua;
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+    width: 140px;
+    height: 50px;
+    margin-top: 20px;
+    border-radius: 5px;
+    
+}
+.butt a{
+  color: white;
+    font-size: 14px;
+}
+.butt:hover{
+  background-color: #EA3B2E;
+}
+.t1{
+  color: #15ABD9;
+  font-size: 0.9rem;
+  
+}
+.partt1 p,.partt2 p,.partt3 p{
+  font-size: small;
+  line-height: 1.5em;
+  margin-top: 10px;
+  color: #CECECE;;
+}

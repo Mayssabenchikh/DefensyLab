@@ -5,9 +5,8 @@ import logo2 from "../../../assets/group.jpg";
 import logo3 from "../../../assets/men.png";
 function Home() {
   return (
-    <div className="image-container">
-      <img src={logo2} id="img" />
-      <div className="image-overlay">
+    <div className="containerfirst">
+      <div className="image-overlay"></div>
         <div className="text">
           <p id="rg">CYBER SECURITY</p>
           <h1>Cyber Security as a Service</h1>
@@ -20,7 +19,7 @@ function Home() {
           </a>
         </div>
 
-      </div>
+      
       
     </div>
     /*<div className='home'>
