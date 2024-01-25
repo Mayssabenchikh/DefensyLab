@@ -1,0 +1,17 @@
+
+.bloc{
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 150px; /* Ajuste la hauteur en fonction de la vue du navigateur (viewport height) */
+  background: #EA3B2E;
+  padding: 20px;
+  border-radius: 8px;
+  
+}
+.bloc h2{
+    color: white;
+    text-align: center;
+}

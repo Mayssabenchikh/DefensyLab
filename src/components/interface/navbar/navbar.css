@@ -4,14 +4,18 @@
     font-family: 'rubik', sans-serif;
     list-style: none;
     text-decoration: none;
-    color: #13296d;
-    font-size: large;
+    
+    }
+.navbar-links_container ul li a,.navbar-login span{
+        font-size: medium;
+        color: #13296d;
     }
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1rem 8rem;
+    color: #13296d;
     
 }
 
