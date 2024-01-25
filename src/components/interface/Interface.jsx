@@ -5,6 +5,7 @@ import Carousel from "./carousel/Carousel";
 import Service from "./service/Service";
 import CarouselTwo from "./carousel2/CarouselTwo"
 import ServiceTwo from "./service2/ServiceTwo";
+import Statstique from "./statstique/Statstique";
 const Interface = () => {
   return (
     <div>
@@ -14,6 +15,8 @@ const Interface = () => {
       <Service/>
       <CarouselTwo/>
       <ServiceTwo/>
+      <Statstique/>
+      
     </div>
   );
 };
