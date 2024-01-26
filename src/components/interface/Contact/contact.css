@@ -1,0 +1,49 @@
+.contactcontainer{
+    height: 70vh;
+}
+.concont .titreg{
+    
+    text-align: center;
+    padding: 30px;
+    color:#0D1E4C ;
+    
+}
+.concont{
+    flex-direction: column;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    
+}
+.partg{
+    display: flex;
+    flex-direction: row;
+}
+.parton,.parttw,.partth{
+    margin: 30px;
+    color:#0D1E4C ;
+}
+.ico{
+    text-align: center;
+}
+#ligne{
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.copy{
+    margin-top: 50px;
+}
+.copy span{
+    display: block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+    margin-top:25px ;
+    color: #0D1E4C;
+}
+.copy span a{
+    color: orangered;
+    font-size: medium;
+}

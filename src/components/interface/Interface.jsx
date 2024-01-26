@@ -7,6 +7,7 @@ import Reference from "./References/Reference"
 import Securite from "./securite du cloud/Securite";
 import Statstique from "./statstique/Statstique";
 import Services from "./Services/Services";
+import Contact from "./Contact/Contact";
 const Interface = () => {
   return (
     <div>
@@ -18,6 +19,7 @@ const Interface = () => {
       <Securite/>
       <Statstique/>
       <Services/>
+      <Contact/>
     </div>
   );
 };
