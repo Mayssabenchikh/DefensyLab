@@ -1,10 +1,10 @@
 import React from 'react'
-import "./servicetwo.css"
+import "./securite.css"
 import img1 from "../../../assets/backgrond.jpg"
 import img2 from "../../../assets/I3-1.png"
 import img3 from "../../../assets/I2-1.png"
 import img4 from "../../../assets/I10-1.png"
-function ServiceTwo() {
+function Securite() {
     
     const containeroneStyle = {
       backgroundImage: `url(${img1})`,
@@ -41,4 +41,4 @@ function ServiceTwo() {
         </div>
     </div>
     );};
-export default ServiceTwo;
+export default Securite;

@@ -1,0 +1,92 @@
+.titreserv{
+    color: #EE4437;
+    font-size: 0.8rem;
+    letter-spacing: 8px;
+    line-height: 1em;
+    text-align: center;
+}
+.grtitre{
+    font-size: 2.8rem;
+    line-height: 1.2em;
+    color: #f6f6f6;
+    text-align: center;
+}
+.parser{
+    color: #ffffff;
+    font-size: 0.8rem;
+    line-height: 1.8em;
+    text-align: center;
+}
+.containerser {
+    border-radius: 0;
+    position: relative;
+    width: 100%;
+    height: 180vh; 
+    background-position: center center;
+    background-size: cover;
+    margin-bottom: 20px;
+    background-color: #0D1E4C ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.textser{
+    position: absolute;
+    top: 10%;
+    color: #fff;
+    text-align: center;
+    width: 100%; 
+    height: auto;
+    
+}
+.blocser{
+    padding-top: 40vh;
+}
+.parttser,.partoser{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    height: 40vh;
+    margin-bottom: 120px;
+    
+    
+}
+.pbloc{
+    border: 1px solid aqua;
+    width: 300px;
+    height: 55vh;
+    margin: 15px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.pbloc img{
+    width: 25%;
+    margin: 30px;
+}
+.rget{
+    margin-bottom: 5px;
+    color: #EE4437;
+    font-size: 1.1rem;
+}
+.ppar{
+    color: #CECECE;
+    font-size: 0.8rem;
+    padding: 1em;
+}
+.lie a{
+    color: white;
+    font-size: 0.7rem;
+}
+
+.lie a:hover{
+    color: #EE4437;
+    
+}
+.ic{
+    margin-left: 10px;
+}

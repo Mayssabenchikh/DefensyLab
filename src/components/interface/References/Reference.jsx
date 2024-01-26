@@ -1,5 +1,5 @@
 import React from 'react'
-import './carousel2.css'
+import './reference.css'
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 import Slider from 'react-slick';
@@ -11,7 +11,7 @@ import img5 from "../../../assets/atl.jpg";
 import img6 from "../../../assets/gat.png";
 import img7 from "../../../assets/sotacib.jpg";
 
-function Carousel() {
+function Reference() {
     const settings = {
         dots: true,
         infinite: true,
@@ -52,4 +52,4 @@ function Carousel() {
   )
 }
 
-export default Carousel
+export default Reference

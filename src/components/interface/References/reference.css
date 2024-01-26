@@ -42,8 +42,9 @@
 }
 #rge{
     text-align: center;
-    letter-spacing: 3px;
+    letter-spacing: 5px;
     color: #EA3B2E;
-    font-size: medium;
+    font-size: 0.8rem;
     margin-bottom: 30px;
+    
 }

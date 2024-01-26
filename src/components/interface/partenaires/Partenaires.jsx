@@ -1,5 +1,5 @@
 import React from 'react'
-import './carousel.css'
+import './partenaires.css'
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 import Slider from 'react-slick';
@@ -9,7 +9,7 @@ import img3 from "../../../assets/micro.jpg";
 import img4 from "../../../assets/addinn.png";
 import img5 from "../../../assets/alight.jpg";
 import img6 from "../../../assets/mgi.png";
-function Carousel() {
+function Partenaires() {
     const settings = {
         dots: true,
         infinite: false,
@@ -47,4 +47,4 @@ function Carousel() {
   )
 }
 
-export default Carousel
+export default Partenaires
