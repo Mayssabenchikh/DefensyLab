@@ -18,7 +18,8 @@
     width: 30em;
     height:40em;
     background-color: #19242D;
-    overflow-y: scroll;
+    overflow-y: scroll; 
+    
   }
   
   .btn-submit {
@@ -26,6 +27,7 @@
     color: brown;
     width: 100px;
     border: 1px solid #15ABD9;
+    margin-bottom: 10px;
   }
   .btn-submit:hover{
     background-color: brown;
@@ -76,3 +78,11 @@
     color: white;
     padding: 10px;
   }
+#rouge{
+    color: red;
+    font-size: 0.8rem;
+}
+#vert{
+    color: white;
+    font-size: 0.8rem;
+}

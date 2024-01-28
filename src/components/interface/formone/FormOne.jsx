@@ -1,12 +1,21 @@
-import React from "react";
+import React,{useState} from "react";
 import "./formone.css";
+import { FaCheck } from "react-icons/fa";
 export const FormOne = ({ onSubmit, onCancel, closeModal, children }) => {
+  const [message, setMessage] = useState(false);
+  const handleSubmit = (e) => {
+    
+    e.preventDefault();
+    setMessage(true);
+    
+  };
   return (
     <div
       className="modal-container"
       onClick={(e) => {
         if (e.target.className === "modal-container")
           closeModal("Modal was closed");
+
       }}
     >
       <div className="modal">
@@ -23,7 +32,7 @@ export const FormOne = ({ onSubmit, onCancel, closeModal, children }) => {
             Laissez nous un message et un conseiller vous contacterait dans les
             plus brefs des délais
           </p>
-          <form>
+          <form onSubmit={handleSubmit}>
             <input type="text" placeholder="Votre nom" />
             <br />
             <input type="email" placeholder="Email" required />
@@ -39,7 +48,10 @@ export const FormOne = ({ onSubmit, onCancel, closeModal, children }) => {
             >
               Envoyer
             </button>
+            
           </form>
+          {message === false && <span id="rouge">Please, check the input !!!</span>}
+          {message && <span id="vert"><FaCheck /> The form was sent successfully.</span>}
         </div>
       </div>
     </div>
