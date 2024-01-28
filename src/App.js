@@ -1,6 +1,7 @@
 
 import Login from "./components/login/Login";
 import Interface from "./components/interface/Interface";
+import NotFound from "./components/notfound/NotFound";
 import {
 
   BrowserRouter ,
@@ -22,6 +23,11 @@ function App() {
         exact
         path="/login"
         element={<Login/>}
+        ></Route>
+         <Route
+        exact
+        path="*"
+        element={<NotFound/>}
         ></Route>
     </Routes>
     </BrowserRouter>
